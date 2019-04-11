@@ -19,9 +19,7 @@
 <link rel="stylesheet" href="css/font-awesome.min.css" />
 <link rel="stylesheet" href="css/owl.carousel.css" />
 <link rel="stylesheet" href="css/style.css" />
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-
+<script src="js/jquery-3.2.1.min.js"></script>
 
 <!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -113,10 +111,20 @@
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
+						<div class="ci-thumb set-bg" data-setbg="img/categories/0.jpg"></div>
+						<div class="ci-text">
+							<h5>Introducción a Java</h5>
+							<p>¿Que es Java, JVM, JRE, JDK? Primeros pasos.</p>
+							<span>4 Horas</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
 						<div class="ci-thumb set-bg" data-setbg="img/categories/1.jpg"></div>
 						<div class="ci-text">
-							<h5>Java Development</h5>
-							<p>Java desde basico hasta avanzado.</p>
+							<h5>Java Fundamentals </h5>
+							<p>Aprende los fundamentos de java, desde como compilar el código hasta conexiones a bases de datos.</p>
 							<span>20 Horas</span>
 						</div>
 					</div>
@@ -154,7 +162,16 @@
 						</div>
 					</div>
 				</div>
-
+								<div class="col-lg-4 col-md-6">
+					<div class="categorie-item">
+						<div class="ci-thumb set-bg" data-setbg="img/courses/5.jpg"></div>
+						<div class="ci-text">
+							<h5>Search Engine optimization</h5>
+							<p>Una necesidad de todos los sitios web, aprende como manejar SEO....</p>
+							<span>10 Horas</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -169,22 +186,23 @@
 		<div class="course-warp">
 			<ul class="course-filter controls">
 				<li class="control active" data-filter="all">Todos</li>
-				<li class="control" data-filter=".programacion">Programacion</li>
+				<li class="control" data-filter=".Programación">Programación</li>
 				<li class="control" data-filter=".design">Diseño</li>
 				<li class="control" data-filter=".web">Web Development</li>
-				<li class="control" data-filter=".photo">Fotografia</li>
+				<li class="control" data-filter=".personal">Personal</li>
+				<li class="control" data-filter=".free">Gratis!</li>
 			</ul>
 			<div class="row course-items-area">
 				<!-- course -->
-				<div class="mix col-lg-3 col-md-4 col-sm-6 programacion">
+				<div class="mix col-lg-3 col-md-4 col-sm-6 Programación">
 					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/categories/1.jpg">
 							<div class="price">Precio: $3000.00</div>
 						</div>
 						<div class="course-info">
 							<div class="course-text">
-								<h5>Java Development</h5>
-								<p>Java desde basico hasta avanzado.</p>
+								<h5>Java Fundamentals </h5>
+								<p>Aprende los fundamentos de java, desde como compilar el código hasta conexiones a bases de datos.</p>
 								<div class="students">+/- 20 Estudiantes</div>
 							</div>
 							<div class="course-author">
@@ -198,7 +216,7 @@
 					</div>
 				</div>
 				<!-- course -->
-				<div class="mix col-lg-3 col-md-4 col-sm-6 design">
+				<div class="mix col-lg-3 col-md-4 col-sm-6 design Programación web">
 					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/courses/2.jpg">
 							<div class="price">Precio: $3000.00</div>
@@ -220,15 +238,15 @@
 					</div>
 				</div>
 				<!-- course -->
-				<div class="mix col-lg-3 col-md-4 col-sm-6 web">
+				<div class="mix col-lg-3 col-md-4 col-sm-6 Programación free">
 					<div class="course-item">
-						<div class="course-thumb set-bg" data-setbg="img/courses/3.jpg">
-							<div class="price">Precio: $3000.00</div>
+						<div class="course-thumb set-bg" data-setbg="img/courses/0.jpg">
+							<div class="price">Precio: Gratis!</div>
 						</div>
 						<div class="course-info">
 							<div class="course-text">
-								<h5>PhotoShop</h5>
-								<p>Aprende a mejorar tus fotografias, como un profesional.</p>
+								<h5>Introducción a Java</h5>
+								<p>¿Que es Java, JVM, JRE, JDK? Primeros pasos.</p>
 								<div class="students">+/- 20 Estudiantes</div>
 							</div>
 							<div class="course-author">
@@ -242,66 +260,88 @@
 					</div>
 				</div>
 				<!-- course -->
-				<div class="mix col-lg-3 col-md-4 col-sm-6 photo">
+				<div class="mix col-lg-3 col-md-4 col-sm-6 web free">
 					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/courses/4.jpg">
-							<div class="price">Precio: $3000.00</div>
+							<div class="price">Precio: Gratis!</div>
 						</div>
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Social Media</h5>
-								<p>Facebook, Instagram, Pintrest...</p>
+								<p>Aprende a moverte en las redes sociales de manera segura y aprovecha todos los beneficios que puedes teneder de ellas: Facebook, Instagram, Pintrest...</p>
 								<div class="students">+/- 20 Estudiantes</div>
 							</div>
 							<div class="course-author">
 								<div class="ca-pic set-bg"
-									data-setbg="https://avatars0.githubusercontent.com/u/773341?s=460&v=4"></div>
+									data-setbg="https://image.flaticon.com/icons/png/128/149/149071.png"></div>
 								<p>
-									Obed Murillo, <span>Developer</span>
+									Por definir, <span>Experto</span>
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- course -->
-				<div class="mix col-lg-3 col-md-4 col-sm-6 finance">
+				<div class="mix col-lg-3 col-md-4 col-sm-6 personal">
 					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/courses/5.jpg">
 							<div class="price">Precio: $3000.00</div>
 						</div>
 						<div class="course-info">
 							<div class="course-text">
-								<h5>IT Development</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<h5>Aprende a emprender</h5>
+								<p>Saca el emprendedor que llevas dentro</p>
 								<div class="students">+/- 20 Estudiantes</div>
 							</div>
 							<div class="course-author">
 								<div class="ca-pic set-bg"
-									data-setbg="https://avatars0.githubusercontent.com/u/773341?s=460&v=4"></div>
+									data-setbg="https://image.flaticon.com/icons/png/128/149/149071.png"></div>
 								<p>
-									Obed Murillo, <span>Developer</span>
+									Por definir, <span>Experto</span>
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- course -->
-				<div class="mix col-lg-3 col-md-4 col-sm-6 design">
+				<div class="mix col-lg-3 col-md-4 col-sm-6 design web">
 					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/courses/6.jpg">
 							<div class="price">Precio: $3000.00</div>
 						</div>
 						<div class="course-info">
 							<div class="course-text">
-								<h5>Socia Media</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<h5>Socia Media Avanzado</h5>
+								<p>Crea una tienda en facebook, promueve tu marca en instagram, digital marketing...</p>
 								<div class="students">+/- 20 Estudiantes</div>
 							</div>
 							<div class="course-author">
 								<div class="ca-pic set-bg"
-									data-setbg="https://avatars0.githubusercontent.com/u/773341?s=460&v=4"></div>
+									data-setbg="https://image.flaticon.com/icons/png/128/149/149071.png"></div>
 								<p>
-									Obed Murillo, <span>Developer</span>
+									Por definir, <span>Experto</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- course -->
+				<div class="mix col-lg-3 col-md-4 col-sm-6 Programación web">
+					<div class="course-item">
+						<div class="course-thumb set-bg" data-setbg="img/courses/7.jpg">
+							<div class="price">Precio: $3000.00</div>
+						</div>
+						<div class="course-info">
+							<div class="course-text">
+								<h5>C# / .net Development</h5>
+								<p>Aprende C# y las mejores practicas.</p>
+								<div class="students">+/- 20 Estudiantes</div>
+							</div>
+							<div class="course-author">
+								<div class="ca-pic set-bg"
+									data-setbg="https://image.flaticon.com/icons/png/128/149/149071.png"></div>
+								<p>
+									Por definir, <span>Experto</span>
 								</p>
 							</div>
 						</div>
@@ -310,41 +350,20 @@
 				<!-- course -->
 				<div class="mix col-lg-3 col-md-4 col-sm-6 web">
 					<div class="course-item">
-						<div class="course-thumb set-bg" data-setbg="img/courses/7.jpg">
-							<div class="price">Precio: $3000.00</div>
-						</div>
-						<div class="course-info">
-							<div class="course-text">
-								<h5>IT Development</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
-								<div class="students">+/- 20 Estudiantes</div>
-							</div>
-							<div class="course-author">
-								<div class="ca-pic set-bg"
-									data-setbg="https://avatars0.githubusercontent.com/u/773341?s=460&v=4"></div>
-								<p>
-									Obed Murillo, <span>Developer</span>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- course -->
-				<div class="mix col-lg-3 col-md-4 col-sm-6 photo">
-					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/courses/8.jpg">
 							<div class="price">Precio: $3000.00</div>
 						</div>
 						<div class="course-info">
 							<div class="course-text">
-								<h5>HTML 5</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<h5>Search Engine optimization</h5>
+								<p>Una necesidad de todos los sitios web, aprende como manejar SEO.</p>
 								<div class="students">+/- 20 Estudiantes</div>
 							</div>
 							<div class="course-author">
-								<div class="ca-pic set-bg" data-setbg="img/authors/8.jpg"></div>
+								<div class="ca-pic set-bg"
+									data-setbg="https://image.flaticon.com/icons/png/128/149/149071.png"></div>
 								<p>
-									Obed Murillo, <span>Developer</span>
+									Por definir, <span>Experto</span>
 								</p>
 							</div>
 						</div>
@@ -366,11 +385,11 @@
 						<ul class="contact-list">
 							<li>Chihuahua, Chihuahua, Mexico</li>
 							<li>6141-82-5638</li>
-							<li>yourmail@gmail.com</li>
+							<li>obedmhg@gmail.com</li>
 						</ul>
 					</div>
 					<div class="widget-item">
-						<h4>Programacion</h4>
+						<h4>Programación</h4>
 						<ul>
 							<li><a href="">Java</a></li>
 							<li><a href="">C# / .net</a></li>
@@ -394,32 +413,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-bottom">
-			<div class="footer-warp">
-				<ul class="footer-menu">
-					<li><a href="#">Terms & Conditions</a></li>
-					<li><a href="#">Register</a></li>
-					<li><a href="#">Privacy</a></li>
-				</ul>
-				<div class="copyright">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy;
-					<script>
-						document.write(new Date().getFullYear());
-					</script>
-					All rights reserved | This template is made with <i
-						class="fa fa-heart-o" aria-hidden="true"></i> by <a
-						href="https://colorlib.com" target="_blank">Colorlib</a>
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				</div>
-			</div>
-		</div>
 	</footer>
 	<!-- footer section end -->
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
